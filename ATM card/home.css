@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#wrapper{
+    height: 16rem;
+    width: 28rem;
+    background-color: #050505;
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+}
+.logo h2{
+    padding-top: 0px;
+}
+img{
+    height: 30px;
+}
+p{
+    font-size: 18px;
+}
+.div2{
+    margin-top: 2%;
+    padding-left: 30px;
+}
+h2{
+    padding: 10px 0;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.valadity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
